@@ -1,0 +1,2 @@
+# AplicacoesOCR
+Aplicações OCR
