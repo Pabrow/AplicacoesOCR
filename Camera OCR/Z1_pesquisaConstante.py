@@ -16,7 +16,7 @@ while True:
     frase = ocr.image_to_string(frame)#Lê o frame
     if len(frase) > 0:#Verifica se há texto na variavel frase
         print(frase)
-    if cv2.waitKey(1) & 0xFF == 27:#Se apertar ESC saí do bagulho/https://web.fe.up.pt/~ee96100/projecto/Tabela%20ascii.htm
+    if cv2.waitKey(1) & 0xFF == 27:#Se apertar ESC saí da aplicação/https://web.fe.up.pt/~ee96100/projecto/Tabela%20ascii.htm
         msg = messagebox.askokcancel('OCR Teste', 'Aplicação Finalizada')
         if msg == 'ok':
             break

@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eb3fca6-860a-49e5-a33c-6023bf216578" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/O_estudo_sobre_as_tecnologias_de_OCR.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagem com texto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TKinter_testes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tesseract Teste.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Textract Teste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Camera OCR/Z1_pesquisaComTratamentoDeImagem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tratamento de imagens/Método CANNY.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tratamento de imagens/imgBordas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera OCR/Z1_pesquisaConstante.py" beforeDir="false" afterPath="$PROJECT_DIR$/Camera OCR/Z1_pesquisaConstante.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera OCR/Z1_pesquisaOrientada.py" beforeDir="false" afterPath="$PROJECT_DIR$/Camera OCR/Z1_pesquisaOrientada.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera OCR/Z1_reduzido_pesquisaConstante.py" beforeDir="false" afterPath="$PROJECT_DIR$/Camera OCR/Z1_reduzido_pesquisaConstante.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera OCR/Z1_reduzido_pesquisaOrientada.py" beforeDir="false" afterPath="$PROJECT_DIR$/Camera OCR/Z1_reduzido_pesquisaOrientada.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagem com texto.png" beforeDir="false" afterPath="$PROJECT_DIR$/Tratamento de imagens/Imagem com texto.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fugFFyqN5OiSd45amuesGCt1aM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -44,10 +45,32 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pablo\PycharmProjects\O_estudo_sobre_as_tecnologias_de_OCR\Tratamento de imagens" />
       <recent name="C:\Users\pablo\PycharmProjects\O_estudo_sobre_as_tecnologias_de_OCR" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Z1_reduzido_pesquisaOrientada">
+  <component name="RunManager" selected="Python.Método CANNY">
+    <configuration name="Método CANNY" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="O_estudo_sobre_as_tecnologias_de_OCR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tratamento de imagens" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tratamento de imagens/Método CANNY.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="TKinter_testes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="O_estudo_sobre_as_tecnologias_de_OCR" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -61,27 +84,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TKinter_testes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Z1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="O_estudo_sobre_as_tecnologias_de_OCR" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tesseract Teste Tempo Real" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\pablo\PycharmProjects\O_estudo_sobre_as_tecnologias_de_OCR\Tesseract Teste Tempo Real\Z1_pesquisaConstante.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Método CANNY" />
         <item itemvalue="Python.Z1_reduzido_pesquisaOrientada" />
         <item itemvalue="Python.Z1_reduzido" />
         <item itemvalue="Python.TKinter_testes" />
         <item itemvalue="Python.Z1_pesquisaOrientada" />
-        <item itemvalue="Python.Z1" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +220,9 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -233,26 +237,26 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1601905773123" />
-    <state x="634" y="345" width="356" height="169" key="Github.CreateGistDialog" timestamp="1601907562911">
+    <state x="634" y="345" width="356" height="169" key="Github.CreateGistDialog" timestamp="1601908573493">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="634" y="345" width="356" height="169" key="Github.CreateGistDialog/0.0.1600.860@0.0.1600.860" timestamp="1601907562911" />
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1601907252241">
+    <state x="634" y="345" width="356" height="169" key="Github.CreateGistDialog/0.0.1600.860@0.0.1600.860" timestamp="1601908573493" />
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1601990717960">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601907252241" />
-    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1601907252240">
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1601990717960" />
+    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1601990717960">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1601907252240" />
-    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1601907252240">
+    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1601990717960" />
+    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1601990717960">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1601907252240" />
-    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1601907252240">
+    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1601990717960" />
+    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1601990717960">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1601907252240" />
+    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1601990717960" />
     <state x="301" y="72" key="SettingsEditor" timestamp="1598449956470">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
